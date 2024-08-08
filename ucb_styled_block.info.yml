@@ -1,0 +1,8 @@
+name: CU Boulder Styled Block
+description: 'Provides a styled block base class for blocks.'
+core_version_requirement: '^9.5 || ^10 || ^11'
+type: module
+version: '1.0.0'
+package: CU Boulder
+dependencies:
+  - block
