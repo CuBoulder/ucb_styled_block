@@ -57,7 +57,7 @@ class StyledBlockService implements StyledBlockServiceInterface {
         if (preg_match('/fa-([a-z]|[0-9]|-)+/', $className, $classMatches)) {
           $classFa = $classMatches[0];
           // Filters out any Font Awesome class that can't be an icon or style.
-          if (!preg_match('/fa-((2xs|xs|sm|lg|xl|2xl|([0-9]|10)x)|beat-fade|bounce|border|fade|flip-(horizontal|vertical|both)|fw|inverse|li|pull-(left|right)|rotate-(90|180|270|by)|shake|spin(-(pulse|reverse))?|sr-only(-focusable)?|stack(-(1|2)x)?|ul)/', $classFa)) {
+          if (!preg_match('/fa-((2xs|xs|sm|lg|xl|2xl|([0-9]|10)x)|beat-fade|bounce|border|fade|flip-(horizontal|vertical|both)|fw|inverse|li|pull-(left|right)|rotate-(90|180|270|by)|shake|spin(-(pulse|reverse))?|sr-only(-focusable)?|stack(-(1|2)x)?|ul)$/', $classFa)) {
             $output .= $output ? ' ' . $classFa : $classFa;
           }
         }
