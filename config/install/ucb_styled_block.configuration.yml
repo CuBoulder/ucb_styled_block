@@ -12,6 +12,9 @@ block_styles:
     bs_background_style_brick: 'bs-background-styled bs-background-brick'
     bs_background_style_outline: 'bs-background-styled bs-background-outline'
     bs_background_style_underline: 'bs-background-styled bs-background-underline'
+    bs_background_style_alert_red: 'bs-background-styled bs-background-alert-red'
+    bs_background_style_alert_orange: 'bs-background-styled bs-background-alert-orange'
+    bs_background_style_alert_yellow: 'bs-background-styled bs-background-alert-yellow'
   title_font_scale:
     bs_title_font_scale_default: bs-title-scale-default
     bs_title_font_scale_increase: bs-title-scale-increase
