@@ -9,6 +9,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Alert Color Updates
+  Update block styles for new sites to have the alert colors by default.
+  
+  Update hook written for the existing sites to add the background colors to the preprocess database options.
+  
+  Fixed null checking in the module folder.
+  
+  Sister PR: https://github.com/CuBoulder/tiamat-theme/pull/1745
+  Sister PR: https://github.com/CuBoulder/tiamat-custom-entities/pull/222
+  Sister PR: https://github.com/CuBoulder/ucb_bootstrap_layouts/pull/78
+---
+
 - ### Updates linter workflow
   Updates the linter workflow to use the new parent workflow in action-collection.
   

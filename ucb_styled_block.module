@@ -30,12 +30,15 @@ function ucb_styled_block_preprocess_block(array &$variables) {
     $defaultStyles = $service->getDefaultStyleOutputs();
     foreach ($defaultStyles as $styleName => $styleDefault) {
       $fieldName = 'field_bs_' . $styleName;
+      $fieldValue = NULL;
       if (isset($variables['elements']['content'][$fieldName]['#items'])) {
-        $styles[$styleName] = $service->getStyleOutput($styleName, $variables['elements']['content'][$fieldName]['#items']->value);
+        $items = $variables['elements']['content'][$fieldName]['#items'];
+        $first = $items->first();
+        $fieldValue = $first ? $first->get('value')->getValue() : NULL;
       }
-      else {
-        $styles[$styleName] = $styleDefault;
-      }
+      $styles[$styleName] = $fieldValue !== NULL && $fieldValue !== ''
+        ? $service->getStyleOutput($styleName, $fieldValue)
+        : $styleDefault;
     }
     $variables['block_styles'] = $styles;
   }
