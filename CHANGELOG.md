@@ -9,6 +9,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Alert Pink Option
+  Added Alert Pink option to background color list.
+  Updated update hook so that alert pink is added to the database options for existing sites.
+  
+  Sister PR: https://github.com/CuBoulder/tiamat-theme/pull/1758
+  Sister PR: https://github.com/CuBoulder/tiamat-custom-entities/pull/224
+  Sister PR: https://github.com/CuBoulder/ucb_bootstrap_layouts/pull/80
+---
+
 - ### Alert Color Updates
   Update block styles for new sites to have the alert colors by default.
   

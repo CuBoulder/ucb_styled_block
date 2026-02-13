@@ -15,6 +15,7 @@ block_styles:
     bs_background_style_alert_red: 'bs-background-styled bs-background-alert-red'
     bs_background_style_alert_orange: 'bs-background-styled bs-background-alert-orange'
     bs_background_style_alert_yellow: 'bs-background-styled bs-background-alert-yellow'
+    bs_background_style_alert_pink: 'bs-background-styled bs-background-alert-pink'
   title_font_scale:
     bs_title_font_scale_default: bs-title-scale-default
     bs_title_font_scale_increase: bs-title-scale-increase
