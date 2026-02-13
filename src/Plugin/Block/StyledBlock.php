@@ -172,6 +172,7 @@ abstract class StyledBlock extends BlockBase {
                 'bs_background_style_alert_red' => $this->t('Alert Red'),
                 'bs_background_style_alert_orange' => $this->t('Alert Orange'),
                 'bs_background_style_alert_yellow' => $this->t('Alert Yellow'),
+                'bs_background_style_alert_pink' => $this->t('Alert Pink'),
                 'bs_background_style_outline' => $this->t('Outline'),
                 'bs_background_style_underline' => $this->t('Underline'),
               ],
